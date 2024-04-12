@@ -1,0 +1,10 @@
+def calculate_exponential(base, exponent):
+    result = base ** exponent
+    return result
+
+base = float(input("Enter the base value: "))
+exponent = float(input("Enter the exponent value: "))
+
+exponential_result = calculate_exponential(base, exponent)
+
+print(f"The exponential form of {base} raised to the power of {exponent} is: {exponential_result}")
