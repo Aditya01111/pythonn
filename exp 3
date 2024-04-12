@@ -1,6 +1,6 @@
 def find_largest_number(numbers):
     if not numbers:
-        return None  # Return None if the list is empty
+        return None 
     max_number = numbers[0]
     for number in numbers:
         if number > max_number:
